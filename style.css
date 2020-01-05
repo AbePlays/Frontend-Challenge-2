@@ -54,14 +54,14 @@ button {
 }
 
 .mid {
-  height: 600px;
+  height: 550px;
 }
 
 .mid-img {
   padding-left: 80px;
   padding-top: 40px;
   float: left;
-  margin-right: 30px;
+  margin-right: 50px;
 }
 
 .mid h1 {
