@@ -5,6 +5,9 @@ body {
   padding: 0;
   box-sizing: border-box;
   color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 button {
@@ -17,6 +20,33 @@ button {
   border-radius: 25px;
   margin-top: 15px;
   box-shadow: 1px 1px 5px black;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.end {
+  position: relative;
+  height: 60px;
+}
+
+.end a {
+  padding: 0 20px;
+}
+
+.fab {
+  color: white;
+}
+
+.icons {
+  position: absolute;
+  right: 100px;
 }
 
 .img-logo {
