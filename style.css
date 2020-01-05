@@ -54,7 +54,16 @@ button {
 }
 
 .mid {
-  height: 550px;
+  height: 600px;
+}
+
+.mid h1 {
+  padding-top: 90px;
+  padding-right: 150px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-size: 40px;
+  font-weight: 700;
 }
 
 .mid-img {
@@ -64,16 +73,78 @@ button {
   margin-right: 50px;
 }
 
-.mid h1 {
-  padding-top: 90px;
-  padding-right: 150px;
-  font-family: "Poppins", sans-serif;
-  line-height: 1.5;
-  font-size: 40px;
-}
-
 .mid p {
   padding-right: 120px;
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
+  font-weight: 400;
+}
+
+@media (max-width: 1210px) {
+  .mid-img {
+    position: relative;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .mid {
+    height: 800px;
+  }
+
+  .mid h1 {
+    padding: 0 40px;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .mid p {
+    padding: 0 0 40px;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .icons {
+    position: relative;
+    display: block;
+    right: 0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 830px) {
+  .img-logo {
+    width: 30%;
+  }
+
+  .mid-img {
+    width: 80%;
+  }
+
+  .mid h1 {
+    width: 80%;
+    font-size: 36px;
+  }
+
+  .mid p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .img-logo {
+    width: 40%;
+  }
+  .mid {
+    margin: 20px 0 10px 20px;
+    height: 700px;
+  }
 }
