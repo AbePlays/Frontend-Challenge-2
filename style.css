@@ -2,3 +2,7 @@ body {
   background-image: url("./images/bg-desktop.svg");
   background-color: hsl(257, 40%, 49%);
 }
+
+.img-logo {
+  margin: 50px 0 40px 80px;
+}
