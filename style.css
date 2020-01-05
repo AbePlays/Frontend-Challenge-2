@@ -1,8 +1,49 @@
 body {
   background-image: url("./images/bg-desktop.svg");
   background-color: hsl(257, 40%, 49%);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+button {
+  border: none;
+  color: #674baf;
+  height: 50px;
+  font-size: 16px;
+  padding: 0 60px;
+  background-color: #fff;
+  border-radius: 25px;
+  margin-top: 15px;
+  box-shadow: 1px 1px 5px black;
 }
 
 .img-logo {
   margin: 50px 0 40px 80px;
+}
+
+.mid {
+  height: 600px;
+}
+
+.mid-img {
+  padding-left: 80px;
+  padding-top: 40px;
+  float: left;
+  margin-right: 30px;
+}
+
+.mid h1 {
+  padding-top: 90px;
+  padding-right: 150px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-size: 40px;
+}
+
+.mid p {
+  padding-right: 120px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
 }
