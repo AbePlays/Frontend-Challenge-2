@@ -11,6 +11,7 @@ body {
 }
 
 button {
+  cursor: pointer;
   border: none;
   color: #674baf;
   height: 50px;
@@ -19,16 +20,12 @@ button {
   background-color: #fff;
   border-radius: 25px;
   margin-top: 15px;
+  transition: all 300ms ease-in-out;
+}
+
+button:hover {
+  opacity: 0.8;
   box-shadow: 1px 1px 5px black;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
 
 .end {
@@ -41,7 +38,12 @@ button {
 }
 
 .fab {
+  transition: all 300ms ease-in-out;
   color: white;
+}
+
+.fab:hover {
+  opacity: 0.4;
 }
 
 .icons {
